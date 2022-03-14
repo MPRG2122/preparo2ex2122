@@ -21,11 +21,28 @@ namespace ConsoleApp1
                 menor = num1;
             }
             else
+                if (num1 == num2)
+                {
+                    Console.WriteLine("El número:" + mayor + "\ny el numero es: " + menor + " son iguales");
+
+                }
+                else
+
+                if (num1 < num2)
             {
-                mayor = num1;
-                menor = num2;
+                mayor = num2;
+                menor = num1;
             }
+            
+
+
+
+            
             Console.WriteLine("El mayor es:" + mayor + "\nEl menor es: " + menor);
+
+            
+
+
             Console.ReadKey();
         }
     }
