@@ -15,7 +15,7 @@ namespace ConsoleApp1
             Console.WriteLine("");
             Console.WriteLine("-------");
 
-            if (num1 > num2)
+            if (num1 < num2)
             {
                 mayor = num2;
                 menor = num1;
